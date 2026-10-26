@@ -18,6 +18,9 @@
 - ✅ отметка завершённых видео после 95%;
 - 🎨 графитово-золотая айдентика Graphite Player.
 
+<img width="1233" height="699" alt="{0E432244-5365-41BF-BBA1-8148D837D63F}" src="https://github.com/user-attachments/assets/cf7ce678-a61d-4c9a-9353-23ef3942958b" />
+
+
 ## 🛠️ Сборка
 
 Требуется JDK 17+ и Android SDK:
