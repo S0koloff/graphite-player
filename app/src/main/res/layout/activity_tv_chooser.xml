@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal" android:background="@color/tv_graphite">
+    <LinearLayout android:id="@+id/sidebar" android:layout_width="170dp" android:layout_height="match_parent" android:orientation="vertical" android:padding="14dp" android:background="#202126">
+        <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="GRAPHITE PLAYER" android:textColor="@color/tv_gold" android:textSize="15sp" android:singleLine="true" android:ellipsize="end" android:paddingBottom="24dp"/>
+        <TextView android:id="@+id/internal" android:layout_width="match_parent" android:layout_height="64dp" android:gravity="center_vertical" android:text="Внутренняя память" android:textColor="@android:color/white" android:focusable="true" android:background="@drawable/chooser_card" android:padding="12dp"/>
+        <TextView android:id="@+id/usb" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginTop="10dp" android:gravity="center_vertical" android:text="USB-диск" android:textColor="@android:color/white" android:focusable="true" android:background="@drawable/chooser_card" android:padding="12dp"/>
+    </LinearLayout>
+    <GridView android:id="@+id/grid" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:numColumns="4" android:columnWidth="150dp" android:stretchMode="columnWidth" android:horizontalSpacing="10dp" android:verticalSpacing="12dp" android:padding="20dp" android:focusable="true"/>
+</LinearLayout>

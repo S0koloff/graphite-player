@@ -1,0 +1,25 @@
+# Build output and generated reports
+build/
+*/build/
+**/build/
+.gradle/
+**/.gradle/
+
+# IDE and local machine files
+.idea/
+*.iml
+local.properties
+
+# Local signing files and generated APK copies
+*.keystore
+*.jks
+*.signed.apk
+
+# Logs and temporary files
+*.log
+*.tmp
+captures/
+
+# OS files
+Thumbs.db
+.DS_Store
