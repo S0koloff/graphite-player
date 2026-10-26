@@ -28,12 +28,6 @@ $env:Path="$env:JAVA_HOME\bin;$env:Path"
 .\gradlew.bat assembleLatestUniversalRelease --no-daemon
 ```
 
-APK:
-
-```text
-app/build/outputs/apk/latestUniversal/release/Graphite.Player.v0.219.apk
-```
-
 ## 📦 Установка
 
 ```powershell
