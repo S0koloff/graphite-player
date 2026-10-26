@@ -14,6 +14,8 @@ local.properties
 *.keystore
 *.jks
 *.signed.apk
+*.apk
+*.idsig
 
 # Logs and temporary files
 *.log
